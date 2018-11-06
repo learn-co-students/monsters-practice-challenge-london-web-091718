@@ -4,9 +4,8 @@ function renderMonsters() {
         .then ( response => response.json())
 }
 
-//update monster
+//create monster
 const updateMonster = (monster) => {
-    console.log(monster)
     fetch(`http://localhost:3000/monsters`,
         {
             method: 'POST',
