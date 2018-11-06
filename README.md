@@ -21,7 +21,7 @@ json-server monsters.json
 
 
 ## API methods
-
+ 
 Get the list of monsters
 ```js
 GET http://localhost:3000/monsters
